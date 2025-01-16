@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPlanner.NotePage">
+    <Grid Margin="3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="CancelButton" Text="Cancel" Margin="3" Clicked="CancelButton_Clicked"></Button>
+            <Button Grid.Column="2" x:Name="SaveNoteButton" Text="Save" Margin="3" Clicked="SaveNoteButton_Clicked"></Button>
+        </Grid>
+        <VerticalStackLayout Grid.Row="1">
+            <Entry x:Name="TitleEntry" Margin="3" Text="{Binding Title}"></Entry>
+            <Label x:Name="DateLabel" Margin="3" Text="{Binding Date}"></Label>
+            <Editor x:Name="NoteTextEditor" Margin="3" Text="{Binding Description}"></Editor>
+        </VerticalStackLayout>
+    </Grid>
+    
+</ContentPage>
