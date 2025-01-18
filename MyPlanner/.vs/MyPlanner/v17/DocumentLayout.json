@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myplanner\\myplanner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myplanner\\myplanner\\notepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\notepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myplanner\\myplanner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myplanner\\myplanner\\notepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\notepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\notepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myplanner\\myplanner\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\notepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\notepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|c:\\users\\user\\source\\repos\\rmp\\myplanner\\myplanner\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC4E9000-62DA-4B94-88FD-E10BA80F458D}|MyPlanner\\MyPlanner.csproj|solutionrelative:myplanner\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,46 +59,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NotePage.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\NotePage.xaml",
-              "RelativeDocumentMoniker": "MyPlanner\\NotePage.xaml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\NotePage.xaml",
-              "RelativeToolTip": "MyPlanner\\NotePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-09T12:34:12.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MyPlanner\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\MainPage.xaml",
-              "RelativeToolTip": "MyPlanner\\MainPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-04T13:27:03.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "NotePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\NotePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\NotePage.xaml.cs",
               "RelativeDocumentMoniker": "MyPlanner\\NotePage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\NotePage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\NotePage.xaml.cs",
               "RelativeToolTip": "MyPlanner\\NotePage.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T12:53:55.49Z"
+              "WhenOpened": "2025-01-09T12:53:55.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\Note.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\Note.cs",
               "RelativeDocumentMoniker": "MyPlanner\\Note.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\Note.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\Note.cs",
               "RelativeToolTip": "MyPlanner\\Note.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,16 +83,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "MyPlanner\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\SettingsPage.xaml",
+              "RelativeToolTip": "MyPlanner\\SettingsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T16:41:16.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyPlanner\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\SettingsPage.xaml.cs*",
+              "RelativeToolTip": "MyPlanner\\SettingsPage.xaml.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:11:00.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyPlanner\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\MainPage.xaml",
+              "RelativeToolTip": "MyPlanner\\MainPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T13:27:03.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MyPlanner\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyPlanner\\MyPlanner\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\MainPage.xaml.cs",
               "RelativeToolTip": "MyPlanner\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T13:35:38.742Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotePage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\NotePage.xaml",
+              "RelativeDocumentMoniker": "MyPlanner\\NotePage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RMP\\MyPlanner\\MyPlanner\\NotePage.xaml",
+              "RelativeToolTip": "MyPlanner\\NotePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T12:34:12.81Z"
             }
           ]
         },
