@@ -96,6 +96,11 @@ namespace MyPlanner
                 NotesCollectionView.ItemsSource = Notes;
             }
         }
+
+        private async void SettingsButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new SettingsPage());
+        }
     }
 
 }

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyPlanner.NotePage">
-    <Grid Margin="3">
+    <Grid Margin="3" BackgroundColor="{DynamicResource BackgroundColor}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -13,13 +13,20 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" x:Name="CancelButton" Text="Cancel" Margin="3" Clicked="CancelButton_Clicked"></Button>
-            <Button Grid.Column="2" x:Name="SaveNoteButton" Text="Save" Margin="3" Clicked="SaveNoteButton_Clicked"></Button>
+            <Button Grid.Column="0" x:Name="CancelButton" Text="Cancel" Margin="3" Clicked="CancelButton_Clicked"
+                     BackgroundColor="{DynamicResource ButtonBackgroundColor}" TextColor="{DynamicResource ButtonTextColor}"
+                    FontSize="{DynamicResource BiggerFontSize}" FontFamily="{DynamicResource FontFamily}"></Button>
+            <Button Grid.Column="2" x:Name="SaveNoteButton" Text="Save" Margin="3" Clicked="SaveNoteButton_Clicked"
+                     BackgroundColor="{DynamicResource ButtonBackgroundColor}" TextColor="{DynamicResource ButtonTextColor}"
+                    FontSize="{DynamicResource BiggerFontSize}" FontFamily="{DynamicResource FontFamily}"></Button>
         </Grid>
         <VerticalStackLayout Grid.Row="1">
-            <Entry x:Name="TitleEntry" Margin="3" Text="{Binding Title}"></Entry>
-            <Label x:Name="DateLabel" Margin="3" Text="{Binding Date}"></Label>
-            <Editor x:Name="NoteTextEditor" Margin="3" Text="{Binding Description}"></Editor>
+            <Entry x:Name="TitleEntry" Margin="3" Text="{Binding Title}"  FontSize="{DynamicResource BiggerFontSize}" 
+                   TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"></Entry>
+            <Label x:Name="DateLabel" Margin="3" Text="{Binding Date}" FontSize="{DynamicResource SmallerFontSize}" 
+                   TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"></Label>
+            <Editor x:Name="NoteTextEditor" Margin="3" Text="{Binding Description}" FontSize="{DynamicResource SmallerFontSize}" 
+                    TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"></Editor>
         </VerticalStackLayout>
     </Grid>
     

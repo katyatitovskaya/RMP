@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPlanner.SettingsPage"
+             Title="SettingsPage">
+    <Grid Margin="15" BackgroundColor="{DynamicResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DatePicker Grid.Row="0" x:Name="DateChanger" Margin="3"/>
+        <HorizontalStackLayout Grid.Row="1">
+            <Label Text="Text Size: " Margin="3" FontSize="{DynamicResource BiggerFontSize}" TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"/>
+            <Label x:Name="FontLabel" Text="{Binding FontSize}" Margin="3" FontSize="{DynamicResource BiggerFontSize}" TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"/>
+            <Stepper x:Name="TextSizeStepper" Margin="3" ValueChanged="TextSizeStepper_ValueChanged" Increment="2" Minimum="16" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Grid.Row="2">
+            <Label Margin="3" Text="Theme Color:"/>
+            <StackLayout RadioButtonGroup.GroupName="ThemeColors">
+                <RadioButton x:Name="PinkRadioButton" Content="Pink" Value="Pink" Margin="3" CheckedChanged="OnThemeColors_CheckedChanged"
+                             TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"
+                             FontSize="{DynamicResource BiggerFontSize}"></RadioButton>
+                <RadioButton x:Name="BlueRadioButton" Content="Blue" Value="Blue" Margin="3" CheckedChanged="OnThemeColors_CheckedChanged"
+                             TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"
+                             FontSize="{DynamicResource BiggerFontSize}"></RadioButton>
+                <RadioButton x:Name="BlackRadioButton" Content="Black" Value="Black" Margin="3" CheckedChanged="OnThemeColors_CheckedChanged"
+                              TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"
+                             FontSize="{DynamicResource BiggerFontSize}"></RadioButton>
+                <RadioButton x:Name="BeigeRadioButton" Content="Beige" Value="Beige" Margin="3" CheckedChanged="OnThemeColors_CheckedChanged"
+                             TextColor="{DynamicResource TextColor}" FontFamily="{DynamicResource FontFamily}"
+                             FontSize="{DynamicResource BiggerFontSize}"></RadioButton>
+            </StackLayout>
+        </HorizontalStackLayout>
+        <Picker Grid.Row="3" SelectedItem="{Binding FontFamily}" FontFamily="{DynamicResource FontFamily}" FontSize="{DynamicResource BiggerFontSize}">
+            <Picker.Items>
+                <x:String>Arial</x:String>
+                <x:String>Verdana</x:String>
+                <x:String>Times New Roman</x:String>
+                <x:String>Comic Sans MS</x:String>
+            </Picker.Items>
+        </Picker>
+        <HorizontalStackLayout Grid.Row="4" Margin="3">
+            <Button x:Name="CancelChangesButton" Margin="3" Text="Return Standart Seetings" Clicked="CancelChangesButton_Clicked"
+                     BackgroundColor="{DynamicResource ButtonBackgroundColor}" TextColor="{DynamicResource ButtonTextColor}"
+                    FontSize="{DynamicResource BiggerFontSize}" FontFamily="{DynamicResource FontFamily}"></Button>
+            <Button x:Name="SaveStyle"  Margin="3" Text="Save Style" Clicked="SaveStyle_Clicked"
+                     BackgroundColor="{DynamicResource ButtonBackgroundColor}" TextColor="{DynamicResource ButtonTextColor}"
+                    FontSize="{DynamicResource BiggerFontSize}" FontFamily="{DynamicResource FontFamily}"></Button>
+        </HorizontalStackLayout>
+            
+    </Grid>
+</ContentPage>
