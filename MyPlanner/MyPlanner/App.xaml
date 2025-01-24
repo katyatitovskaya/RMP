@@ -8,6 +8,15 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                <ResourceDictionary>
+                    <Color x:Key="BackgroundColor">#ADD8E6</Color>
+                    <Color x:Key="ButtonBackgroundColor">#191970</Color>
+                    <Color x:Key="ButtonTextColor">#FFFAFA</Color>
+                    <Color x:Key="TextColor">#000000</Color>
+                    <x:Double x:Key="BiggerFontSize">20</x:Double>
+                    <x:Double x:Key="SmallerFontSize">16</x:Double>
+                    <x:String x:Key="FontFamily">Arial</x:String>
+                </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
